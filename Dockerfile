@@ -1,5 +1,5 @@
-#FROM python:3.8.19-slim-bullseye
-FROM 461388931911.dkr.ecr.ca-central-1.amazonaws.com/python-base-image:8b75e18
+FROM python:3.8.19-slim-bullseye
+#FROM 461388931911.dkr.ecr.ca-central-1.amazonaws.com/python-base-image:8b75e18
 
 #Make app folder on root
 RUN mkdir -p /app
